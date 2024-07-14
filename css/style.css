@@ -1,0 +1,52 @@
+#cardContainer {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+#card {
+    width: 250px;
+    height: auto;
+    padding: 10px;
+}
+
+
+.imgOver {
+    
+     height: 325px;
+}
+
+.imgOver:hover {
+    transform: scale(1.2);
+}
+
+.imgOver {
+    transition: transform 0.5s ease;
+}
+
+#btnName{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#btnName:hover{
+
+    background-color: white;
+    color: #1f9bcf;
+    text-decoration: underline;
+}
+
+footer{
+
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px;
+}
