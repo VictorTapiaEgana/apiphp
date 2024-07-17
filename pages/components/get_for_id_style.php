@@ -81,7 +81,7 @@
     footer{
         
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         justify-content: center;
         align-items: center;
         padding: 20px;

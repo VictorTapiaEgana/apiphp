@@ -2,7 +2,9 @@
 
     require ('../pages/components/head.php');
     require ('../pages/components/get_for_id_style.php');
+    
     $logoImg = "../images/logo.png";
+
     require ('../pages/components/navBar.php');
 
     if(isset($_POST['detalle'])){

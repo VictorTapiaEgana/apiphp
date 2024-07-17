@@ -50,7 +50,9 @@
 
     </div>
     
-    <p class="h1 text-center">TRANSFORMACIONES</p>
+     <?php if (count($result['transformations']) > 0): ?>
+            <p class="h1 text-center">TRANSFORMACIONES</p>
+     <?php endif ?>     
 
     <div class="transformaciones d-flex justify-content-center flex-wrap">
 
